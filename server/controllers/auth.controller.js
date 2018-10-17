@@ -28,7 +28,7 @@ module.exports = {
         res.status(200).send( session.user );
     },
 
-    signout: (req, res, next) => {
+    signout: ( req, res, next ) => {
         const { session } = req;
         session.destroy();
         res.status(200).send( session );
@@ -39,3 +39,4 @@ module.exports = {
         res.status(200).send( session.user );
     }
 }
+
