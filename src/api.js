@@ -8,3 +8,4 @@ export default {
   user: '/api/user',
   checkout: '/api/cart/checkout'
 };
+
